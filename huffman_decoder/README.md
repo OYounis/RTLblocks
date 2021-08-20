@@ -11,3 +11,6 @@ The data is received in a pre-calculated huffman coding scheme and decoded to pl
 | 3'b011 | 3'b100 |
 | 4'b0000| 3'b101 |
 | 4'b0001| 3'b110 |
+
+The decoding process is done according to the following mealy finite state machine:
+![Huffman Decoder FSM](docs/huffman_decode_fsm.png)
